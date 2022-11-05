@@ -1,0 +1,21 @@
+import java.io.*;
+import java.util.*;
+class staircase
+{ 
+    public static void main(String args[])
+    { 
+        Scanner object=new Scanner(System.in);
+        System.out.println("enter the number of rows nd columns");
+        int l=object.nextInt();
+        int i,j;
+        for(i=0;i<l;i++)
+        { 
+            for(j=0;j<l;j++)
+            {   if(i>=j)
+                {System.out.print("#");}
+            }
+            System.out.println();
+
+        }
+    }
+}
