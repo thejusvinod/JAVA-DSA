@@ -5,7 +5,7 @@ class staircase
     public static void main(String args[])
     { 
         Scanner object=new Scanner(System.in);
-        System.out.println("enter the number of rows nd columns");
+        System.out.println("enter the number of lines");
         int l=object.nextInt();
         int i,j;
         for(i=0;i<l;i++)
