@@ -1,0 +1,25 @@
+import java.io.*;
+import java.util.*;
+class staircase
+{ 
+    public static void main(String args[])
+    { 
+        Scanner object=new Scanner(System.in);
+        System.out.println("enter the number of lines");
+        int l=object.nextInt();
+        int i,j;
+        for(i=0;i<l;i++)
+        { 
+            for(j=0;j<l;j++)
+            {   if(j<l-i-1)
+                {System.out.print(" ");}
+                else
+                { 
+                    System.out.print("#");
+                }
+            }
+            System.out.println();
+
+        }
+    }
+}
